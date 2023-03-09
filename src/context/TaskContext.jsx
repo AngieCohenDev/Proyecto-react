@@ -28,9 +28,9 @@ export function TaskContextProvider(props) {
   return (
     <TaskContext.Provider
       value={{
-        task: tasks,
-        deleteTask: deleteTask,
-        createTask: createTask,
+        tasks,
+        deleteTask,
+        createTask
       }}
     >
       {props.children}
